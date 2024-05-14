@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Assistant</title>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <!-- Jquery -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+    <!-- Bootsrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Texllate  -->
+    <link rel="stylesheet" href="assets/vendore/texllate/animate.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <section id="Oval">
+        <!-- Left Menu -->
+        <div id="leftmenu">
+          <div id="date_time">
+            <div id="date" class="semi_arc e4">
+              <div class="semi_arc_2 e4_1">
+                <div class="counterspin4"></div>
+              </div>
+              <div style="font-size: 40px; margin-top: 7px; height: 35px;">04</div>
+              <div style="font-size: 25px">January</div>
+            </div>
+
+            <div id="time" class="arc e1">
+              <div
+                style="font-size: 23px;  margin-top: 50px"
+              >
+                6:49 AM
+              </div>
+            </div>
+          </div>
+
+          <p class="title">Performance</p>
+          <div class="hline title_underline"></div>
+
+          <span
+            class="menuitem material-icons"
+            style="font-size: 30px; margin-left: 10px"
+            >speed
+            <p
+              id="cpu"
+              class="caption"
+              style="font-size: 20px; display: inline; margin: 0;"
+            >
+              CPU Usage: 19%
+            </p>
+          </span>
+
+          <span
+            class="menuitem material-icons"
+            style="font-size: 30px; margin-left: 10px"
+            >memory
+            <p
+              id="ram"
+              class="caption"
+              style="font-size: 20px; display: inline; margin: 0"
+            >
+              Memory: 28%
+            </p>
+          </span>
+          <br />
+
+          <span
+            class="menuitem material-icons"
+            style="font-size: 30px; margin-left: 10px"
+            >list
+            <p
+              id="proc"
+              class="caption"
+              style="font-size: 20px; display: inline; margin: 0"
+            >
+              Processes: 73
+            </p>
+          </span>
+
+          <p class="title">Shortcuts</p>
+          <div class="hline title_underline"></div>
+          <button class="menuitem">
+            <span class="material-icons">keyboard_arrow_right</span>
+            <p class="caption">User</p>
+          </button>
+          <button class="menuitem">
+            <span class="material-icons">keyboard_arrow_right</span>
+            <p class="caption">Documents</p>
+          </button>
+          <button class="menuitem">
+            <span class="material-icons">keyboard_arrow_right</span>
+            <p class="caption">Computer</p>
+          </button>
+          <button class="menuitem">
+            <span class="material-icons">keyboard_arrow_right</span>
+            <p class="caption">Control Panel</p>
+          </button>
+
+          <p class="title">Social</p>
+          <div class="hline title_underline"></div>
+          <a href="https://www.facebook.com"
+            ><div class="app_icon material-icons">facebook</div></a
+          >
+          <a href="https://www.reddit.com"
+            ><div class="app_icon material-icons">reddit</div></a
+          >
+          <a href="https://mail.google.com"
+            ><div class="app_icon material-icons">email</div></a
+          >
+          <a href="https://www.whatsapp.com"
+            ><div class="app_icon material-icons">chat</div></a
+          >
+          <div class="app_icon material-icons">mood</div>
+          <div class="app_icon material-icons">turned_in</div>
+          <a href="https://www.whatsapp.com"
+            ><div class="app_icon material-icons">audiotrack</div></a
+          >
+          <div class="app_icon material-icons">star</div>
+        </div>
+
+        <!-- Right Menu -->
+        <div id="rightmenu">
+          <p class="title" style="text-align: left; margin-left: 10px">Notes</p>
+          <div id="particle10" class="hline"></div>
+          <div id="particle11" class="hline"></div>
+          <div id="particle12" class="vline"></div>
+          <textarea id="note_input" rows="12" cols="44">
+        Owner
+        - Niyam Verma
+        - Mayank
+        - Mihir
+        </textarea
+          >
+        </div>
+
+        <!-- Arc Reactor -->
+        <div id="arc_container">
+          <div class="arc_reactor">
+            <div class="case_container">
+              <div class="e7">
+                <div class="semi_arc_3 e5_1">
+                  <div class="semi_arc_3 e5_2">
+                    <div class="semi_arc_3 e5_3">
+                      <div class="semi_arc_3 e5_4"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="core2"></div>
+              </div>
+              <ul class="marks">
+                <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> 
+                <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+                <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+                <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+                <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEARCH BOX -->
+        <div class="searchBox">
+          <input class="searchInput" type="text" name="" placeholder="Search" />
+          <button class="ChatBtn" href="#">
+            <i class="material-icons">search</i>
+          </button>
+        </div>
+        <div class="voice">
+          <button id="MicBtn" class="MicBtn" href="#" >
+            <i class="material-icons">mic</i>
+          </button>
+        </div>
+
+        <!-- Particles -->
+        <!-- Left Menu Particles -->
+        <canvas id="particle1" width="20" height="500"></canvas>
+        <script>
+          var canvas = document.getElementById("particle1");
+          var context = canvas.getContext("2d");
+
+          context.beginPath();
+          context.moveTo(0, 0);
+          context.lineTo(0, 70);
+          context.lineTo(10, 85);
+          context.lineTo(10, 135);
+          context.lineTo(0, 150);
+          context.lineTo(0, 480);
+          context.lineTo(5, 490);
+          context.lineTo(10, 490);
+          context.lineTo(20, 490);
+          context.lineTo(20, 250);
+          context.lineTo(10, 235);
+          context.lineTo(10, 185);
+          context.lineTo(20, 170);
+          context.lineTo(20, 40);
+          context.lineTo(10, 30);
+          context.lineTo(10, 20);
+
+          context.closePath();
+          context.lineWidth = 1;
+          context.fillStyle = "rgba(2,254,255,0.3)";
+          context.fill();
+          context.strokeStyle = "transparent";
+          context.stroke();
+        </script>
+
+        <canvas id="particle1_1" width="40" height="510"></canvas>
+        <script>
+          var canvas = document.getElementById("particle1_1");
+          var context = canvas.getContext("2d");
+
+          context.beginPath();
+          context.lineTo(0, 0);
+          context.lineTo(10, 15);
+          context.lineTo(10, 65);
+          context.lineTo(0, 80);
+          context.lineTo(0, 0);
+
+          context.closePath();
+          context.lineWidth = 1;
+          context.fillStyle = "rgba(2,254,255,0.3)";
+          context.fill();
+          context.strokeStyle = "transparent";
+          context.stroke();
+        </script>
+
+        <canvas id="particle1_2" width="40" height="510"></canvas>
+        <script>
+          var canvas = document.getElementById("particle1_2");
+          var context = canvas.getContext("2d");
+
+          context.beginPath();
+          context.lineTo(10, 80);
+          context.lineTo(0, 65);
+          context.lineTo(0, 15);
+          context.lineTo(10, 0);
+          context.lineTo(10, 80);
+
+          context.closePath();
+          context.lineWidth = 1;
+          context.fillStyle = "rgba(2,254,255,0.3)";
+          context.fill();
+          context.strokeStyle = "transparent";
+          context.stroke();
+        </script>
+
+        <div id="particle1_3">> > > ></div>
+
+        <div id="particle2">▶<br />▶<br />▶</div>
+        <div id="particle3" class="vline" />
+        <div id="particle4" class="vline" />
+        <div id="particle5" class="vline" />
+        <div id="particle6" class="vline" />
+        <div id="particle7" class="vline" />
+        <div id="particle8" class="vline" />
+        <div id="particle9" class="vline" />
+      </section>
+
+      <section id="Oval2" hidden>
+        <div id="siriwave">
+          <div class="siri-message">
+            <h1>Hello, How Can I Help You !!!</h1>
+          </div>
+          <div id="siri-container"></div>
+        </div>
+      </section>
+    </div>
+
+
+  
+
+    
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!--Jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Siri Wave -->
+    <script src="https://unpkg.com/siriwave/dist/siriwave.umd.min.js"></script>
+
+    <!-- JavaScript File -->
+    <script src="main.js"></script>
+    
+    <!-- Integrated FrontEnd with BackEnd  -->
+    <script src="/eel.js"></script>
+
+    <!-- Texllate js -->
+    <script src="assets/vendore/texllate/jquery.fittext.js"></script>
+    <script src="assets/vendore/texllate/jquery.lettering.js"></script>
+    <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
+
+    <!-- text changing -->
+    <script src="controller.js"></script>
+
+  </body>
+</html>
+ 
